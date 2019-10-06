@@ -1,0 +1,54 @@
+/*
+* font-family: 'Turret Road', cursive;
+* font-family: 'Rubik', sans-serif;
+*/
+html
+{
+  margin: auto;
+  padding: auto;
+}
+body {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.particule {
+  position: absolute;
+}
+form
+{
+    font-family: 'Turret Road', cursive;
+    text-align: center;
+    background: transparent;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+label
+{
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+    font-size: 2.3em;
+
+}
+::-webkit-input-placeholder { /* Edge */
+    color: rgb(161, 161, 219);
+    font-size: 1.3em;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(161, 161, 219);
+    font-size: 1.3em;
+  }
+  
+  ::placeholder {
+    color: rgba(19, 6, 129, 0.719);
+    font-size: 1.3em;
+  }
